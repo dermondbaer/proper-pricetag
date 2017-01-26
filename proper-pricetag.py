@@ -179,7 +179,13 @@ class App(object):
             self.refreshGUI()
 
     def result(self):
-        out = ["(inkl. Gebühren "]
+        # necessary variables
+        PK = []
+        AK_VVK = ""
+
+
+
+        out = ["(inkl. Gebühren "+AK_VVK+":)"+PK]
 
 class Preisklasse(object):
 
